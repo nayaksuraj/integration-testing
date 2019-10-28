@@ -8,4 +8,5 @@ cache:
   - $HOME/.m2
   - $HOME/.gradle
 script:
+- ls -lht
 - mvn install
